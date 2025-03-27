@@ -24,6 +24,6 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_YOUR_PROJECT_ID }}' # **REPLACE YOUR_PROJECT_ID**
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BUYTEXTURES2 }}' # **REPLACE YOUR_PROJECT_ID**
           channelId: live # Or 'preview' if you want to deploy to a preview channel
           projectId: buytextures2  # **REPLACE your-project-id with your Firebase project ID**
